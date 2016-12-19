@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 
 <ul class="cards">
-	<button class="cards-close">x <span>close</span></button>
+	<li><button class="cards-close">x <span>close</span></button></li>
 	<li id="Card-pink" class="card"></li>
 	<li id="Card-red" class="card"></li>
 	<li id="Card-orange" class="card"></li>
