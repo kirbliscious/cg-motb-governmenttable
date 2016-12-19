@@ -1,0 +1,53 @@
+#Card-pink{ background-color: $pink; }
+#Card-red{ background-color: $red; }
+#Card-orange{ background-color: $orange; }
+#Card-yellow{ background-color: $yellow; }
+#Card-green{ background-color: $green; }
+#Card-blue{ background-color: $blue; }
+#Card-purple{ background-color: $purple; }
+
+.cards{
+	position:absolute;
+	left:42%; top:32%;
+	width:300px; height:388px;
+
+	.cards-close{
+			position:absolute;
+			top:2%;
+			right:2%;
+			z-index: 1000;
+			font-family:$avenirultralight;
+			font-size:60px;
+			color:#fff;
+			line-height: 36px;
+
+			>span{
+				font-size:12px;
+				font-family:$avenirultralight;
+				letter-spacing:1.17px;
+				display:block;
+				clear:both;
+			}
+		}
+	.card{
+		width:100%; height:100%;
+		position:absolute;
+		top:0; left:0;
+		-webkit-transform-origin: right center;
+		z-index:10;
+		border:2px solid #fff;
+		border-radius: 4px;
+
+		&.active{
+			z-index:200;
+		}
+		&.next{
+			z-index:100;
+		}
+		&.swapback{
+			z-index:100;
+		}
+	}
+}
+
+

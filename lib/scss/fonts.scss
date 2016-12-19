@@ -1,0 +1,73 @@
+/* FONTS */
+@font-face {
+	font-family:"AvenirBold";
+	src: url("../fonts/AvenirNext-Bold.ttf");
+}
+
+@font-face {
+	font-family:"AvenirBoldItalic";
+	src: url("../fonts/AvenirNext-BoldItalic.ttf");
+}
+
+@font-face {
+	font-family:"AvenirDemiBold";
+	src: url("../fonts/AvenirNext-DemiBold.ttf");
+}
+
+@font-face {
+	font-family:"AvenirDemiBoldItalic";
+	src: url("../fonts/AvenirNext-DemiBoldItalic.ttf");
+}
+
+@font-face {
+	font-family:"AvenirHeavy";
+	src: url("../fonts/AvenirNext-Heavy.ttf");
+}
+
+@font-face {
+	font-family:"AvenirHeavyItalic";
+	src: url("../fonts/AvenirNext-HeavyItalic.ttf");
+}
+
+@font-face {
+	font-family:"AvenirItalic";
+	src: url("../fonts/AvenirNext-Italic.ttf");
+}
+
+@font-face {
+	font-family:"AvenirMedium";
+	src: url("../fonts/AvenirNext-Medium.ttf");
+}
+
+@font-face {
+	font-family:"AvenirMediumItalic";
+	src: url("../fonts/AvenirNext-MediumItalic.ttf");
+}
+
+@font-face {
+	font-family:"AvenirRegular";
+	src: url("../fonts/AvenirNext-Regular.ttf");
+}
+
+@font-face {
+	font-family:"AvenirUltraLight";
+	src: url("../fonts/AvenirNext-UltraLight.ttf");
+}
+
+@font-face {
+	font-family:"AvenirUltraLightItalic";
+	src: url("../fonts/AvenirNext-UltraLightItalic.ttf");
+}
+
+$avenirbold: 				'AvenirBold', sans-serif;
+$avenirbolditalic: 			'AvenirBoldItalic', sans-serif;
+$avenirdemibold: 			'AvenirDemiBold', sans-serif;
+$avenirdemibolditalic: 		'AvenirDemiBoldItalic', sans-serif;
+$avenirheavy: 				'AvenirHeavy', sans-serif;
+$avenirheavyitalic: 		'AvenirHeavyItalic', sans-serif;
+$aveniritalic: 				'AvenirItalic', sans-serif;
+$avenirmedium: 				'AvenirMedium', sans-serif;
+$avenirmediumitalic: 		'AvenirMediumItalic', sans-serif;
+$avenirregular: 			'AvenirRegular', sans-serif;
+$avenirultralight: 			'AvenirUltraLight', sans-serif;
+$avenirultralightitalic:	'AvenirUltraLightItalic', sans-serif;
