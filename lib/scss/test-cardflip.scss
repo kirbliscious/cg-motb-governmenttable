@@ -38,13 +38,10 @@
 		border:2px solid #fff;
 		border-radius: 4px;
 
-		&.active{
+		&.top{
 			z-index:200;
 		}
-		&.next{
-			z-index:100;
-		}
-		&.swapback{
+		&.bottom{
 			z-index:100;
 		}
 	}

@@ -682,11 +682,9 @@ template {
     z-index: 10;
     border: 2px solid #fff;
     border-radius: 4px; }
-    .cards .card.active {
+    .cards .card.top {
       z-index: 200; }
-    .cards .card.next {
-      z-index: 100; }
-    .cards .card.swapback {
+    .cards .card.bottom {
       z-index: 100; }
 
 /*------------------------ 
