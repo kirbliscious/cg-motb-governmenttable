@@ -687,6 +687,104 @@ template {
     .cards .card.bottom {
       z-index: 100; }
 
+/* Slider */
+#slider {
+  position: absolute;
+  height: 90%;
+  left: 5%;
+  top: 5%; }
+
+#custom-handle {
+  width: 3.5em;
+  height: 1.6em;
+  margin-top: -.8em;
+  text-align: right;
+  line-height: 1.6em;
+  padding-right: 10px;
+  font-size: 30px; }
+
+/* Rotate */
+.rotate {
+  -moz-transform: rotate(7.5deg);
+  /* FF3.5+ */
+  -o-transform: rotate(7.5deg);
+  /* Opera 10.5 */
+  -webkit-transform: rotate(7.5deg);
+  /* Saf3.1+, Chrome */
+  -webkit-transform-origin: 0 0;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+  /*IE6,IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+  /* IE8 */ }
+
+/* Cards */
+#Cards {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  align-items: center;
+  display: flex;
+  /* Flag */
+  /* Card */ }
+  #Cards .flag {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 500; }
+  #Cards #Flag-Canada {
+    top: -30px;
+    left: -30px; }
+  #Cards .card {
+    position: relative;
+    margin: 0 auto;
+    width: 575px;
+    height: 775px;
+    color: #8fd9f4;
+    background-color: #000;
+    padding: 5px;
+    transform-origin: center center;
+    transition: all 1s ease; }
+    #Cards .card .card-close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      z-index: 100;
+      font-family: "AvenirUltraLight", sans-serif;
+      font-size: 95px;
+      color: #8fd9f4;
+      line-height: 50px; }
+      #Cards .card .card-close > span {
+        font-size: 18px;
+        font-family: "AvenirUltraLight", sans-serif;
+        letter-spacing: 1.17px;
+        display: block;
+        clear: both; }
+    #Cards .card ul {
+      position: absolute;
+      left: 5px;
+      top: 5px;
+      height: 765px;
+      width: 565px; }
+      #Cards .card ul li {
+        height: 100%; }
+  #Cards .card-description .card-description-border {
+    height: 100%;
+    border: 5px solid #8fd9f4;
+    padding: 35px; }
+  #Cards .card-description h1.card-description-title {
+    font-family: "AvenirDemiBold", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 4px; }
+  #Cards .card-description p.card-description-text {
+    font-family: "AvenirRegular", sans-serif;
+    font-size: 25px;
+    line-height: 36px; }
+  #Cards .card-article .card-article-image {
+    max-width: 100%;
+    height: auto; }
+
 /*------------------------ 
  	MAIN
 -------------------------*/
@@ -696,6 +794,14 @@ body {
 
 body {
   min-height: 100%; }
+
+/*------------------------ 
+ 	INDEX
+-------------------------*/
+#Index ul {
+  margin: 10px; }
+#Index li {
+  margin: 10px 0; }
 
 /*------------------------ 
  	MAP BLUE BACKGROUND

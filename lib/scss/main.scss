@@ -5,8 +5,7 @@
 @import "normalize.scss";
 @import "test-drag.scss";
 @import "test-cardflip.scss";
-
-
+@import "test-textrotate.scss";
 
 /*------------------------ 
  	MAIN
@@ -20,6 +19,18 @@ body{
 }
 
 html { }
+
+/*------------------------ 
+ 	INDEX
+-------------------------*/
+#Index{
+	ul{
+		margin:10px;
+	}
+	li{
+		margin:10px 0;
+	}
+}
 
 /*------------------------ 
  	MAP BLUE BACKGROUND

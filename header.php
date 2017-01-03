@@ -12,11 +12,14 @@
 
         <link rel="stylesheet" href="lib/css/main.css">
 
+        <!--  Scipts / Vendor -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="lib/js/vendor/interact.js"></script>
         <script src="lib/js/vendor/jqueryrotate.js"></script>
-        <script src="lib/js/main.js"></script>
-        <script src="lib/js/test-cardflip.js"></script>
+
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     </head>
     <body>
         <!--[if lte IE 9]>
