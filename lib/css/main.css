@@ -877,15 +877,24 @@ body {
 /*------------------------ 
  	FLAGS 
 -------------------------*/
+#Flags {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%); }
+
 .flag {
-  position: absolute;
   width: 40px;
   height: 40px;
-  z-index: 100; }
-
-#Flag-Canada {
-  left: 32%;
-  top: 61%; }
+  z-index: 100;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 20px; }
+  .flag img {
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 /*------------------------ 
  	FLAG CONTENT
