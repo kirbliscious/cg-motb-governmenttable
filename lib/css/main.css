@@ -824,7 +824,8 @@ body {
 #Map {
   width: 100%;
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 1000; }
   #Map img {
     width: 125%;
     height: auto; }
@@ -877,15 +878,27 @@ body {
 /*------------------------ 
  	FLAGS 
 -------------------------*/
+#Flag-Labels {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  padding: 20px;
+  transform: translate(-50%, 0); }
+  #Flag-Labels img {
+    height: 100%;
+    width: auto; }
+
 #Flags {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%); }
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 .flag {
   width: 60px;
+  height: 60px;
   z-index: 100;
   position: absolute; }
   .flag img {
@@ -894,59 +907,10 @@ body {
     left: 0; }
 
 /*------------------------ 
- 	FLAG CONTENT
+ 	CARDS
 -------------------------*/
-.flagcontent {
-  position: absolute;
-  top: 40px;
-  left: 0;
-  width: 575px;
-  height: 775px;
-  color: #8fd9f4;
-  background-color: #000;
-  padding: 5px;
+.cards {
   display: none;
-  transform-origin: top left; }
-  .flagcontent .flagcontent-close {
-    position: absolute;
-    top: 20px;
-    right: 40px;
-    z-index: 100;
-    font-family: "AvenirUltraLight", sans-serif;
-    font-size: 95px;
-    color: #8fd9f4;
-    line-height: 50px; }
-    .flagcontent .flagcontent-close > span {
-      font-size: 18px;
-      font-family: "AvenirUltraLight", sans-serif;
-      letter-spacing: 1.17px;
-      display: block;
-      clear: both; }
-  .flagcontent ul {
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    height: 765px;
-    width: 565px; }
-    .flagcontent ul li {
-      height: 100%; }
-
-.flagcontent-description .flagcontent-description-border {
-  height: 100%;
-  border: 1px solid #8fd9f4;
-  padding: 35px; }
-.flagcontent-description h1.flagcontent-description-title {
-  font-family: "AvenirDemiBold", sans-serif;
-  font-size: 36px;
-  text-transform: uppercase;
-  letter-spacing: 4px; }
-.flagcontent-description p.flagcontent-description-text {
-  font-family: "AvenirRegular", sans-serif;
-  font-size: 25px;
-  line-height: 36px; }
-
-.flagcontent-article .flagcontent-article-image {
-  max-width: 100%;
-  height: auto; }
+  -webkit-transform-origin: left top; }
 
 /*# sourceMappingURL=main.css.map */
