@@ -885,12 +885,9 @@ body {
   transform: translate(-50%, -50%); }
 
 .flag {
-  width: 40px;
-  height: 40px;
+  width: 60px;
   z-index: 100;
-  position: absolute;
-  background-color: #fff;
-  border-radius: 20px; }
+  position: absolute; }
   .flag img {
     position: absolute;
     top: 0;
