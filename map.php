@@ -65,7 +65,7 @@
 	</li>
 	<li id="Flag-USA" class="flag" data-targetcards="#TestCards">
 		<div class="blur"></div>
-		<img src="lib/svg/flags/canada.svg" alt="Tonga Flag" />
+		<img src="lib/svg/flags/usa.svg" alt="Tonga Flag" />
 	</li>
 	<li id="Flag-Canada" class="flag" data-targetcards="#TestCards">
 		<div class="blur"></div>
