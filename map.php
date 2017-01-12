@@ -101,7 +101,7 @@
 	</li>
 </ul>
 
-<ul id="TestCards" class="cards" data-targetflag="placeholder" data-x="0" data-y="0">
+<ul id="TestCards" class="cards draggable" data-targetflag="placeholder" data-x="0" data-y="0">
 	<li><button class="cards-close">x <span>close</span></button></li>
 	<li id="Card-pink" class="card"></li>
 	<li id="Card-red" class="card"></li>
