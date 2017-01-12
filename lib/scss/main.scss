@@ -16,21 +16,11 @@ body{
 }
 body{
 	min-height: 100%;
+	overflow:hidden;
 }
 
 html { }
 
-/*------------------------ 
- 	INDEX
--------------------------*/
-#Index{
-	ul{
-		margin:10px;
-	}
-	li{
-		margin:10px 0;
-	}
-}
 
 /*------------------------ 
  	MAP BLUE BACKGROUND
@@ -109,7 +99,7 @@ html { }
  	FLAGS 
 -------------------------*/
 #Flag-Labels{
-	position:absolute;
+	position:fixed;
 	top:0; left:50%;
 	height:100%;
 	padding:20px;
